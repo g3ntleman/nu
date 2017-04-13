@@ -28,7 +28,7 @@
 
 - (NSMutableArray *) array
 {
-    return @[];
+    return [[NSMutableArray alloc] init];
 }
 
 - (NSString *) stringValue
